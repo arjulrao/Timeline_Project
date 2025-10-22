@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
 }
 .main{
     height: 100vh;
@@ -37,9 +39,23 @@
     justify-content: center;
     gap: 20px;
 }
+.main-line {
+    width: 100%;
+    display: flex;
+}
 .line {
     height: 5px;
-    width: 100%;   
+    width: 76%;
+}
+.min-line-before {
+    height: 9px;
+    width: 12%;
+    border-radius: 0px 0px 5px 0px;
+}
+.min-line-after {
+    height: 9px;
+    width: 12%;
+    border-radius: 0px 0px 0px 5px;
 }
 .year {
     font-size: 32px;
@@ -55,9 +71,15 @@
 #line1, #line2{
     background-color: #47a7bf;
 }
+.min-1, .min-2{
+    background-color: #47a7bf;
+}
 #circle2, #circle3, #circle4 {
     background-color: #0092c7;
 }
 #line3, #line4 {
+    background-color: #3ba8a3;
+}
+.min-3, .min-4 {
     background-color: #3ba8a3;
 }
