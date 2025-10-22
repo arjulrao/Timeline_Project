@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #fafcfc;
+}
+.timeline-all{
+    width: 100%;
+    padding: 50px 50px;
+    display: flex;
+}
+.timeline{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.circle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.info{
+    width: 80%;
+    padding: 12px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.line {
+    height: 5px;
+    width: 100%;   
+}
+.year {
+    font-size: 32px;
+    color: #1c96c7;
+}
+.text {
+    font-size: 22px;
+    text-align: center;
+}
+#circle1 {
+    background-color: #22bf8b;
+}
+#line1, #line2{
+    background-color: #47a7bf;
+}
+#circle2, #circle3, #circle4 {
+    background-color: #0092c7;
+}
+#line3, #line4 {
+    background-color: #3ba8a3;
+}
